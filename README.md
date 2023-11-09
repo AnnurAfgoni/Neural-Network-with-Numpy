@@ -13,14 +13,14 @@ $$z = \sigma \sum_{i=1}^{n}\left ( \vec{x_i}\vec{w_i} \right ) + b$$
 
 ## Lost / Cost Function (Mean Squared Error)
 
-$MSE = \frac{1}{n}\sum_{i = 1}^{n}(Y_i - \hat{Y_i})^2$
+$$MSE = \frac{1}{n}\sum_{i = 1}^{n}(Y_i - \hat{Y_i})^2$$
 
 * $Y_i$ : real value
 * $\hat{Y_i}$ : predicted value
 
 ## Update weight (gradient descent)
 
-$W' = W + \alpha \frac{dL}{dW}$
+$$W' = W + \alpha \frac{dL}{dW}$$
 $$b' = b + \alpha \frac{dL}{db}$$
 
 * $\alpha$ : learning rate
