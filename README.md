@@ -21,6 +21,7 @@ $$MSE = \frac{1}{n}\sum_{i = 1}^{n}(Y_i - \hat{Y_i})^2$$
 ## Update weight (gradient descent)
 
 $$W' = W + \alpha \frac{dL}{dW}$$
+
 $$b' = b + \alpha \frac{dL}{db}$$
 
 * $\alpha$ : learning rate
