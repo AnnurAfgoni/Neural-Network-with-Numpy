@@ -4,7 +4,7 @@ Numpy Neural Network, where I dive deep into the world of neural networks using 
 
 ## Neural Network Formula (FeedForward)
 
-$z = \sigma \sum_{i=1}^{n}\left ( \vec{x_i}\vec{w_i} \right ) + b$
+$$z = \sigma \sum_{i=1}^{n}\left ( \vec{x_i}\vec{w_i} \right ) + b$$
 
 * $\sigma$ : Activation Function
 * $x_i$ : Input Data
