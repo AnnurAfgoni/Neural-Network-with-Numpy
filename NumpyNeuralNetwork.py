@@ -1,11 +1,13 @@
+import numpy
+
 class Neuron:
     
     def __init__(self, input_size, learning_rate, epoch):
         """
             input_size = jumlah baris dari input
         """
-        self.w = np.random.rand(input_size, 1)
-        self.bias = np.random.rand(1, 1)
+        self.w = numpy.random.rand(input_size, 1)
+        self.bias = numpy.random.rand(1, 1)
         self.learning_rate = learning_rate
         self.epoch = epoch
         
@@ -63,3 +65,4 @@ class Neuron:
     
     """def prediksi(self, x, y, value):
         pass """
+
